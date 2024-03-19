@@ -4,7 +4,7 @@ import photo from '../images/abby2.jpg'
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import { CiFileOn } from "react-icons/ci";
+import { FaRegFileAlt } from "react-icons/fa";
 import PDF1 from '../images/resume.pdf';
 import { AiOutlineFacebook } from "react-icons/ai";
 import { CiTwitter } from "react-icons/ci";
@@ -35,7 +35,7 @@ const Home = () => {
           LinkedIn
         </a>
         <a href={PDF1} target="_blank" rel="noreferrer">
-          <CiFileOn size={"2.4rem"} color={"#000"}/>
+          <FaRegFileAlt size={"2.2rem"} color={"#000"}/>
           Resume
         </a>
       </div>
